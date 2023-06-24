@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container_head_menu_admin{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #72c1e8;
+    padding: 14px;
+    color:  #FFFFFF; 
+    font-weight: bolder;
+}
+
+.main_options{
+    background-color: #03052e;
+    height: 150vh;
+}
+
+.iconos_superiores{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; /* Establece la altura del contenedor */
+  font-size: 27px;
+  font-weight: bold;
+  padding: 80px;
+  
+}
+
+.iconos_inf{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Establece la altura del contenedor */
+  font-size: 27px;
+  font-weight: bold;
+  padding: 80px;
+
+}
+.circle {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #c80101;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 60px;
+  }
+
+.imgchechk{
+    margin-top: 65px;
+}
+.registrar{
+    margin-top: 40px;
+    margin-left: 8px;
+}
+.monitorizacion{
+    margin-top: 40px;
+
+}
+.consultar{
+    margin-top: 50px;
+
+}
+.dispconduc{
+    margin-top: 50px;
+
+}
+
+.main_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: bold;
+    height: 16vh;
+   
+}
+.main_text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: bold;
+    height: 40vh;
+}
+
+.text{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 60px;
+  }

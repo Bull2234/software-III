@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ProyectoSoftware(eva01)/public/css/iniciosesion.css">
+    <title>inicio de sesión</title>
+</head>
+<body>
+    <div class="main_login">
+        <h2>Iniciar sesión</h2>
+        <br>
+        <br>
+        <br>
+        <div>
+            <form action="../php/iniciosesion_admin.php" method="POST">
+                <label for="Nombre*">Correo</label> <br> <br>
+                <input type="text" id="Nombre*" name="correo" placeholder="example@gmail.com" required/> <br> <br>
+                <label for="Nombre*">Constraseña</label> <br> <br>
+                <input type="password" id="Nombre*" name="contrasena" placeholder="********" required/> <br> <br>
+                <br>
+                <p><a href="../html/olvide_contrasena.html">Olvidaste la contraseña</a></p>
+                <br>
+                <button type="text">inciar sesión</button>
+                </form>
+                <br>
+                <br>
+                <p>¿No tienes cuenta?<a href="registrarse.html"> Registrate</a></p>
+
+        </div>
+        
+    </div>
+</body>
+</html>

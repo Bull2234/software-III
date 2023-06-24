@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.linea {
+    border: none;
+    border-top: 2px dashed #FFFFFF;
+    height: 1px;
+    margin: 2px 0;
+ }
+
+.container_head{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #2d2f53;
+    padding: 2px;
+    color:  #FFFFFF;
+    
+}
+
+.main_div{
+    background-color: #6e91c1;
+    height: 100vh;
+}
+
+.main_form{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* Establece la altura del contenedor */
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.main_form p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+input {
+    border: 1px solid #a8a8aa;
+    border-radius: 4px;
+    padding: 2px 28px;
+}
+input::placeholder {
+    color: #60616f;
+    text-align: left;
+    padding: 0px 0px;
+  }
+
+.nombre_prod {
+    margin: 28px;
+}
+
+.cant_prod{
+    margin: 10px;
+}
+
+.date {
+    margin: 26px;
+}
+
+select{
+    margin-left: 84px;
+    border: 1px solid #a8a8aa;
+    border-radius: 4px;
+    padding: 2px 100px;
+}
+
+.checkbox{
+    appearance: none;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    padding: 0;
+    outline: none;
+}
+
+
+    button {
+
+        color: #000000;
+        display: inline-block;
+       font-weight: bold;
+      border-radius: 3px;
+      background-color: #34a853;
+      border: none;
+      text-align: center;
+      font-size: 15px;
+      padding: 4px;
+      width: 240px;
+      cursor: pointer;
+      margin: 0.4px;
+      font-size: 26px;
+        
+    }
+
+

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.principal{
+    background-color: #6e91c1;
+    height: 100vh;
+
+}
+.cuadrado {
+    width: 730px;
+    height: 480px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .noti_titulo{
+    height: 10vh;
+    background-color: #72c1e8;
+    text-align: center;
+    padding: 14px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin: 10px;
+ }
+.noti_nuevas_titulo{
+    height: 6vh;
+    background-color: #6e91c1;
+    padding: 14px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin: 10px;
+}
+.noti_nuevas_content{
+    height: 16vh;
+    background-color: #72c1e8;
+    padding: 14px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.noti_viejas_titulo{
+    height: 6vh;
+    background-color: #6e91c1;
+    padding: 14px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin: 10px;
+}
+.noti_viejas_content{
+    background-color: #72c1e8;
+    padding: 14px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin: 10px;
+}
+ h1{
+    font-weight: bolder;
+    font-size: 40px;
+ }

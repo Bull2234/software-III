@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #03052e;
+}
+header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+button{
+    color: #E0E0E0;
+    display: inline-block;
+    margin-right: 10px; /* Margen derecho para separar los botones */
+    border-radius: 4px;
+  background-color: #2d2f53;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.dernav{
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dernav li a{
+    text-decoration: none;
+    color: #E0E0E0;
+    
+}
+.dernav ul {
+    list-style: none;
+}
+
+.dernav li {
+    display: inline-block;
+    padding: 20px;
+    
+    
+}
+.izqnav{
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    cursor: pointer;
+    width: 7%;
+}
+
+.dernav a:hover{
+    color: #ffc849;
+}
+.main_right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    float: right;
+    height: 90vh;
+}
+.main_left{
+    width: 50%;
+    float: left;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.main_left h1{
+    max-width: 70%;
+    height: auto;
+}
+
+.botoncentro{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#primerapartelema{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #E0E0E0;
+}
+#segundapartelema{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    color: #E0E0E0;
+}
+.mainimg{
+    max-width: 90%;
+    height: auto;
+}
+#advertencia_celular {
+    display:none
+}
+
+@media (max-width: 1016px) {
+    #advertencia_celular {
+      font-family: 'Poppins', sans-serif;
+      font-size: 28px;
+      display: block;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: yellowgreen;
+      color: black;
+      text-align: center;
+      padding: 10px;
+      z-index: 9999;
+    }
+    header {
+        display: none;
+    }
+    #primerapartelema{
+        display: none;
+    }
+    #segundapartelema{
+        display: none;
+    }
+
+    .mainimg{
+        display: none;
+    }
+    
+  }

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #03052e;
+    color: #E0E0E0;
+}
+
+.deregi{
+    width: 50%;
+    height: 106vh;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izqregi{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izqregi img {
+    width: 68%;
+    border: 2px solid black;
+    border-radius: 22px;
+}
+.izqregi img {
+    max-width: 80%;
+    height: auto;
+}
+h2 {
+    
+    position: absolute;
+    top: 130px;
+    
+}
+
+#p_inicial{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 178px;
+    font-size: 14px;
+    color: #a8a8aa;
+
+}
+
+input {
+    border: 1px solid #a8a8aa;
+    border-radius: 4px;
+    padding: 6px 171px;
+}
+input::placeholder {
+    color: #60616f;
+    text-align: left;
+    padding: 0px 0px;
+  }
+
+.dia {
+    font-size:12px ;
+    padding: 6px ;
+}
+.mes{
+    font-size:12px ;
+    padding: 6px ;
+}
+.AAA{
+    font-size:12px ;
+    padding: 6px ;
+}
+
+.cc{
+    font-size:12px ;
+    padding: 6px 2px;
+}
+.numbercc {
+    font-size:12px ;
+    padding: 6px 97px;
+
+}
+
+button {
+
+    color: #E0E0E0;
+    display: inline-block;
+   
+    border-radius: 3px;
+  background-color: #1a7fc1;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 4px;
+  width: 510px;
+  cursor: pointer;
+  margin: 0.4px;
+    
+}
